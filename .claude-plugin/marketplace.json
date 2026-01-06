@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "byigitt-ralph-wiggum-windows",
+  "description": "Windows-compatible Ralph Wiggum plugin for self-referential AI development loops",
+  "owner": {
+    "name": "byigitt"
+  },
+  "plugins": [
+    {
+      "name": "ralph-wiggum",
+      "description": "Windows-compatible self-referential AI loops for iterative development. Uses PowerShell instead of Bash.",
+      "version": "1.0.0",
+      "author": {
+        "name": "byigitt"
+      },
+      "source": "./plugins/ralph-wiggum",
+      "category": "development",
+      "homepage": "https://github.com/byigitt/ralph-wiggum-windows"
+    }
+  ]
+}
