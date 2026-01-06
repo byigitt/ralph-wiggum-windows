@@ -1,0 +1,16 @@
+{
+  "description": "Ralph Wiggum plugin stop hook for self-referential loops",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${CLAUDE_PLUGIN_ROOT}/scripts/stop-hook.ps1\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

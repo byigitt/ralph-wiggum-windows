@@ -1,0 +1,10 @@
+{
+  "name": "ralph-wiggum",
+  "description": "Self-referential development loop plugin - iteratively improves on tasks until completion",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic (Windows port)"
+  },
+  "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-wiggum",
+  "license": "MIT"
+}
