@@ -31,7 +31,7 @@ This is incredibly powerful for complex development tasks where multiple iterati
 ```
 2. Install plugin
 ```bash
-/plugin /plugin install ralph-wiggum@byigitt-ralph-wiggum-windows
+/plugin install ralph-wiggum@byigitt-ralph-wiggum-windows
 ```
 
 ### Option 2: Manual Installation
