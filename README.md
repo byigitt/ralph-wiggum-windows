@@ -25,9 +25,13 @@ This is incredibly powerful for complex development tasks where multiple iterati
 ## Installation
 
 ### Option 1: Install via Claude Code CLI (Recommended)
-
+1. Add the marketplace
 ```bash
-claude plugins:add byigitt/ralph-wiggum-windows
+/plugin marketplace add byigitt/ralph-wiggum-windows
+```
+2. Install plugin
+```bash
+/plugin /plugin install ralph-wiggum@byigitt-ralph-wiggum-windows
 ```
 
 ### Option 2: Manual Installation
